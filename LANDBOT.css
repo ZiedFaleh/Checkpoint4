@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+    background-color: #281e65;
+}
+.background-coloration{
+    height: 1000px;
+    background-color: blueviolet; 
+    background-image: linear-gradient(160deg, rgb(235, 133, 231),   #800080, rgb(0, 238, 255)); 
+    border-radius: 15px;
+    padding: 4% 15%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .navigation-a{
+    text-decoration: none;
+    color: white;
+}
+  .button1 {
+    border-radius: 20px;
+    border-color: transparent;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .button:hover {
+    background-color: rgba(238, 0, 118,1);
+    }
+  .button1:hover {
+      background-color: rgba(255, 255, 255,.1);
+    }
+    a {
+        background-color: transparent;
+    }
+main{
+    padding: 10%;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+}
+.discussion-box-1{
+    background-color: white;
+    padding: 3% 5%;
+    border-radius: 20px;
+    width: 50%;
+    height: 70px;
+    color: rgb(69, 33, 98);
+}
+.discussion-box-2{
+    background-color: white;
+    padding: 1% 5%;
+    border-radius: 20px;
+    width: 50%;
+    height: 45px;
+    margin-top: 5px;
+    color: rgb(69, 33, 98);
+}
+.discussion-box-with-image img{
+    border-radius: 20px;
+    height: 130px;
+    margin-top: 5px;
+}
+.discussion-box-3{
+    background-color: white;
+    padding: 1% 5%;
+    border-radius: 20px;
+    width: 28%;
+    height: 45px;
+    margin-top: 5px;
+    color: rgb(69, 33, 98);
+    margin-bottom: 10px;
+}
+.user-actions-label{
+    color: white;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.user-action{
+    background-color: rgb(238, 0, 118);
+    border: 1px solid red;
+    color: white;
+    padding: 24px 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.user-action:hover {opacity: 1}
+.privacy{
+    color: white;
+    font-size: 80%;
+}
+.privacy-policy-link{
+    color: white;
+}
